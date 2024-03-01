@@ -1,12 +1,22 @@
-Things I'm okay with:
-• I've created a standard header and footer, which feels familiar to me.
-• I've standardized the ingredients list by removing the initial "\* " from each item.
-Things I'm happy about:
-• I've implemented a function to display the "Total cooking time" dynamically, showing "x minutes" if it's less than an hour and "x:xx" otherwise.
-• I've used an object fitter to ensure consistent picture sizes, though I believe a better solution would involve allowing users to crop images upon upload, similar to Facebook's feature.
-• All filters are functional, with clear labels for written filters and health labels provided in the dropdown. Additionally, I've included a reset button to clear all selections.
-• Regarding vegan and vegetarian options, I've ensured that if a recipe is vegan, it is automatically categorized as vegetarian. I've implemented a function to display the appropriate label based on the "healthLabels" listed.
-Not too happy about:
-• While the home page meets my expectations, the single recipe page didn't turn out as planned. However, all necessary elements are present.
-• I found working with Chakra UI to be less than ideal. Although I experimented with Bootstrap for conceptual design, I've since transitioned to primarily using Tailwind CSS and Tailwind-based libraries like NexUI and Shadcn. While the homepage responds well to resizing, the single recipe page does not, and I'm unsure why. Transitioning to Tailwind CSS would have made this task much simpler, and I regret spending so much time on it. Perhaps I didn't fully grasp the Chakra way of thinking, and I should spend some time meditating on it.
-Hope this meets your expectations.
+# This is my final project for the frontend course, about a recipe website.
+
+## Here are my thoughts on the project:
+
+## Things im okay about:
+
+- Created a header and a footer feels standart to me.
+- Same ingreadianst start whit “\* ” i removed that by detecting it and cut the first 2 charecters from the String
+
+## Things im happy about:
+
+- For the “Total cooking time I created a function to sat if its less then an hour “x minits” if it is more then just “x:xx”
+- To make all the pictures the same size i used a objectfitter(not so nice), solution on my opinion shoud be found by uploading the picture with a “crop”tool like facebook does have.
+- All filters work, bij writing you can find the lables, and the dropdown you can find the healthlabesls. I got a reset buton that clears evrything.
+- About vegan and vegetarian, to my knolege evrything that is vegen is automaticly vegetarian, so i made a function that said nothing if it isit , vegen or vegetarian if one is listed in the "healthLabels".
+
+## Not to hapy about:
+
+- I think the home-page looks okay, the single-recepi-page didnt go exactly how i wanted it. Evrything is included.
+- I diddnt like working with chakra UI. I experimented with bootstrap and i think its good for concept disigning, but now im working mostly directly with Tailwind and Tailwind baced libraryies like NexUI and shadcn. The homepage does resize good, the single-recipe-page doesnt, i dont know why. With tailwind i coud have done it so easy and i spend a lot of time on it. Maybe i just diddt get the chakra wey of thinking. Shoud do some more meditation.
+
+# Hope this review meets your expectations.
